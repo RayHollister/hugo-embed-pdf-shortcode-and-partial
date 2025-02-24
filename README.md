@@ -103,6 +103,20 @@ To hide loading spinner
 {{< embed-pdf url="./path/to/pdf/file/example.pdf" hideLoader="true" >}}
 ```
 
+To hide the download button
+```
+{{< embed-pdf url="./path/to/pdf/file/example.pdf" download="false" >}}
+```
+
+To manually set the width of the preview
+```
+{{< embed-pdf url="./path/to/pdf/file/example.pdf" width="50%" >}}
+```
+or
+```
+{{< embed-pdf url="./path/to/pdf/file/example.pdf" width="200px" >}}
+```
+
 ### Parameters
 - **url (required)** : The relative location of the file.  
 
